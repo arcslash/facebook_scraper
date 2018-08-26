@@ -2,14 +2,20 @@
 
 ## Useage
 
-* change the username and password variables to your facebook account credentials
-* Change dl_path to the output folder of your images to be saved, relative to the working directory
+* make a file 'config.ini' to the working directory with the following content, replace username and password with your defaults.
+* Change OUTPUT to the output folder of your images to be saved, relative to the working directory
+```
+[DEFAULT]
+USERNAME = <username">
+SECRET = <password>
+OUTPUT = data/
+
+```
+
 * Add page_photo_link to the link of your page's photo directly as given in the sample link.
 
 ```
-dl_path = "data/"
-username = "user@email.com"
-password = "pass"
+
 page_photo_link = "https://www.facebook.com/pg/TwinklingDreamsWeddingPlanners/photos/?ref=page_internal"
 
 ```
