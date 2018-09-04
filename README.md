@@ -6,13 +6,13 @@
 * Change OUTPUT to the output folder of your images to be saved, relative to the working directory
 ```
 [DEFAULT]
-USERNAME = <username">
+USERNAME = <username>
 SECRET = <password>
 OUTPUT = data/
 
 ```
 
-* Add page_photo_link to the link of your page's photo directly as given in the sample link.
+* Add page_photo_link to the link of your page's photo directly as given in the sample link, in scrape.py
 
 ```
 
